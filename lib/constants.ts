@@ -105,28 +105,28 @@ export const ASSISTANT_ID = process.env.NEXT_PUBLIC_ASSISTANT_ID!;
 export const voiceOptions = {
   // Male voices
   dave: {
-    id: "CYw3kZ02Hs0563khs1Fj",
+    id: "hzLyDn3IrvrdH83BdqUu",
     name: "Dave",
     description: "Young male, British-Essex, casual & conversational",
   },
   daniel: {
-    id: "onwK4e9ZLuTAKqWW03F9",
+    id: "xKhbyU7E3bC6T89Kn26c",
     name: "Daniel",
     description: "Middle-aged male, British, authoritative but warm",
   },
   chris: {
-    id: "iP95p4xoKVk53GoZ742B",
+    id: "Tf0KgoctXIPeWJa1L6jE",
     name: "Chris",
     description: "Male, casual & easy-going",
   },
   // Female voices
   rachel: {
-    id: "21m00Tcm4TlvDq8ikWAM",
+    id: "wUrj2qIfmBZAz9x7k6yN",
     name: "Rachel",
     description: "Young female, American, calm & clear",
   },
   sarah: {
-    id: "EXAVITQu4vr4xnSDxMaL",
+    id: "bD9maNcCuQQS75DGuteM",
     name: "Sarah",
     description: "Young female, American, soft & approachable",
   },
