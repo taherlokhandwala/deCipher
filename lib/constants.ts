@@ -107,28 +107,29 @@ export const voiceOptions = {
   dave: {
     id: "hzLyDn3IrvrdH83BdqUu",
     name: "Dave",
-    description: "Young male, British-Essex, casual & conversational",
+    description: "My voice has a warm, encouraging tone with a touch of humor",
   },
   daniel: {
     id: "xKhbyU7E3bC6T89Kn26c",
     name: "Daniel",
-    description: "Middle-aged male, British, authoritative but warm",
+    description: "Late 30s Caucasian male. Mix of casual and professional.",
   },
   chris: {
-    id: "Tf0KgoctXIPeWJa1L6jE",
+    id: "uthyNpAanNJt9o5FOEBC",
     name: "Chris",
-    description: "Male, casual & easy-going",
+    description:
+      "A warm, friendly South Asian male voice perfect for explainer videos",
   },
   // Female voices
   rachel: {
     id: "wUrj2qIfmBZAz9x7k6yN",
     name: "Rachel",
-    description: "Young female, American, calm & clear",
+    description: "Calm and pleasant with a clear and articulate delivery",
   },
   sarah: {
     id: "bD9maNcCuQQS75DGuteM",
     name: "Sarah",
-    description: "Young female, American, soft & approachable",
+    description: "A voice that has lived and adventured",
   },
 };
 
