@@ -11,7 +11,7 @@ const HeroSection = () => {
           {/* Left Part */}
           <div className="library-hero-text">
             <h1 className="library-hero-title text-4xl font-serif font-bold">
-              AI Audio Library
+              Talk To Books
             </h1>
             <p className="library-hero-description">
               Convert your books into interactive AI conversations.{" "}
