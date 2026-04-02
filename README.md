@@ -1,6 +1,6 @@
-# 📖 deChiper
+# 📖 deCipher
 
-**deChiper** is an advanced AI-powered document analysis and voice interaction platform. It allows users to upload PDF documents, extract meaningful insights, and interact with their content through AI-driven voice assistants. Whether you're a student, researcher, or professional, deChiper helps you "decipher" complex information faster and more intuitively.
+**deCipher** is an advanced AI-powered document analysis and voice interaction platform. It allows users to upload PDF documents, extract meaningful insights, and interact with their content through AI-driven voice assistants. Whether you're a student, researcher, or professional, deCipher helps you "decipher" complex information faster and more intuitively.
 
 ---
 
