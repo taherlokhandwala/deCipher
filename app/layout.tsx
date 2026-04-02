@@ -20,7 +20,7 @@ const monaSans = Mona_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "DeCipher",
+  title: "deCipher",
   description:
     "Transform your books into interactive AI conversations and chat with your books using voice.",
 };
