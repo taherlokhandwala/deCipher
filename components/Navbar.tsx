@@ -9,6 +9,7 @@ import { SignInButton, Show, UserButton, useUser } from "@clerk/nextjs";
 const navItems = [
   { label: "Library", href: "/" },
   { label: "Add New", href: "/books/new" },
+  { label: "Pricing", href: "/subscriptions" },
 ];
 
 const Navbar = () => {
@@ -44,11 +45,23 @@ const Navbar = () => {
 
           <div className="flex gap-7.5 items-center">
             <Show when="signed-out">
-              <SignInButton />
+              <SignInButton>
+                <button className="p-2 bg-[#f3e4c7] font-bold border border-black rounded-sm cursor-pointer">
+                  Sign In
+                </button>
+              </SignInButton>
             </Show>
             <Show when="signed-in">
               <div className="nav-user-link">
-                <UserButton />
+                <UserButton
+                  appearance={{
+                    elements: {
+                      userButtonPopoverActionButton__manageAccount: {
+                        display: "none",
+                      },
+                    },
+                  }}
+                />
                 {user?.firstName && (
                   <Link href="/subscriptions" className="nav-user-name">
                     {user.firstName}

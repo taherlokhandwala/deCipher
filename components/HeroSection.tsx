@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { SignInButton, Show } from "@clerk/nextjs";
 
 const HeroSection = () => {
   return (
@@ -10,20 +11,30 @@ const HeroSection = () => {
           {/* Left Part */}
           <div className="library-hero-text">
             <h1 className="library-hero-title text-4xl font-serif font-bold">
-              Your Library
+              AI Audio Library
             </h1>
             <p className="library-hero-description">
               Convert your books into interactive AI conversations.{" "}
               <br className="hidden md:block" />
-              Listen, learn, and discuss your favorite reads.
+              Add a new book to our library or start a conversation with an
+              existing book.
             </p>
-            <Link
-              href="/books/new"
-              className="library-cta-primary mt-4 flex items-center justify-center"
-            >
-              <span className="text-3xl font-light mb-1 mr-2">+</span>
-              <span className="text-[#212a3b]">Add new book</span>
-            </Link>
+            <Show when="signed-out">
+              <SignInButton>
+                <button className="library-cta-primary mt-4 flex items-center justify-center cursor-pointer">
+                  Sign in for Access
+                </button>
+              </SignInButton>
+            </Show>
+            <Show when="signed-in">
+              <Link
+                href="/books/new"
+                className="library-cta-primary mt-4 flex items-center justify-center"
+              >
+                <span className="text-3xl font-light mb-1 mr-2">+</span>
+                <span className="text-[#212a3b]">Add new book</span>
+              </Link>
+            </Show>
           </div>
 
           {/* Center Part - Desktop */}
